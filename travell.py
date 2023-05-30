@@ -9,3 +9,4 @@ def shortest_path(distance):
         path.append(next_city)
         path.remove(next_city)
     path.append[0]
+    return path
