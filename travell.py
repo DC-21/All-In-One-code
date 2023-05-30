@@ -10,3 +10,10 @@ def shortest_path(distance):
         path.remove(next_city)
     path.append[0]
     return path
+distance = [[1,2,3,4],
+[0,1,2,3],
+[1,0,2,1],
+[0,0,1,2]]
+
+path = shortest_path(distance)
+print(path)
