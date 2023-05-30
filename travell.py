@@ -5,4 +5,4 @@ def shortest_path(distance):
 
     while unvisited:
         current_city = path[-1]
-        next_city = min(unvisited, key=lambda x:)
+        next_city = min(unvisited, key=lambda x: distance[current_city][x])
